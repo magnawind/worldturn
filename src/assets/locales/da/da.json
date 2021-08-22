@@ -1,0 +1,108 @@
+{
+  "global": {
+    "wemuda": "wemuda",
+    "getInTouch": "Kontakt os",
+    "backButton": "tilbage",
+    "partners": "partnere",
+    "aboutUs": "om os"
+  },
+  "getInTouch": {
+    "title": "Kontakt os",
+    "sayHi": "sig hej 👋",
+    "followUs": "følg os 📱"
+  },
+  "home": {
+    "hero": {
+      "title": "produkt- og konsulenthus i københavn",
+      "scroll": "scroll for more"
+    },
+    "whatWeDo": {
+      "topic:": "om os",
+      "title": "vi designer og udvikler bæredygtige softwareprodukter med en moderne og sjov approach."
+    },
+    "cases": {
+      "topic": "cases",
+      "title": "vores arbejde"
+    },
+    "team": {
+      "topic": "holdet",
+      "title": "vi er et ungt og erfarent tværfunktionelt team, der er i stand til at udfylde alle rollerne for at sikre en vellykket udviklingsproces.",
+      "magnus": "Data Scientist & Business Developer",
+      "thomas": "UX & UI Designer",
+      "rumle": "Full-Stack Developer",
+      "alexander": "Full-Stack Developer"
+    }
+  },
+  "pth": {
+    "name": "Pay The Hippo",
+    "intro": "Redesign, rebranding og udvikling af en bødekasseapp for sportshold",
+    "d1": "I 2020 slog wemuda sig sammen med det team der har skabt den populære app",
+    "d2": "for at skabe en virksomhed og ny retning for brandet.",
+    "aboutTitle": "om projektet",
+    "about": "Efter lanceringen for 10 år siden, har PayTheHippo fyldt behovet for en app til sportsklubber, der kan holde styr på kulturen med at uddele bøder til medlemmerne af alverdens årsager, som bliver brugt til at betale for fejringen i slutningen af hver sæson, i form af middage, aktiviteter og selvfølgelig fester. Da appen har været tidligt på markedet, er den blevet det populære valg hos klubber over hele Scandinavien.",
+    "ourRoleTitle": "vores rolle",
+    "ourRole": "Vi har indledningsvist udført et totalt redesign af applikationen med en meget mere minimalistisk tilgang, som samtidig ikke føles fremmed for brugere der har vendt sig til den originale brugeroplevelse. Derudover har vi arbejdet med forretningsudvikling, ud fra en affiliate-strategi, som vi mener vil blive meget relevant for sportsklubber. I forlængelse af forretningsudviklingen, vil vi på sigt implementere en betalingsløsning baseret på PSD2 og vores erfaring med fintech-løsniger."
+  },
+  "sustainableFoods": {
+    "name": "Sustainable foods",
+    "intro": "Co2 beregning i detail- og serviceindustrien",
+    "aboutTitle1": "vores arbejde - part 1",
+    "about1": "Vi har arbejdet med dataprocessering, dataopkobling og metoder til at evaluere CO2-udledningsaftryk med vores partnere i detail- og serviceindustrien. Mange udbyder af  beregninger arbejder med aggregerede tal på kategori-niveau, hvorimod vi har indsamlet, valideret og tildelt værdier på langt de fleste ingredienser fra en stor mængde offentliggjorte ‘life cycle analysis’ rapporter.",
+    "aboutTitle2": "vores arbejde - part 2",
+    "about2": "Udover at det giver os mere relevant og nøjagtig data på ingrediens-niveau, hjælper vores metode os med at estimere mere kvalificerede værdier for sammensatte produkter som består af flere ingredienser og processer. Vi vedligeholder og udbygger vores ‘data-warehouse’ og hjælper vores partnere med at anvende dataen til at underbygge governance og til at kommunikere deres indsats for at begrænse deres klimaaftryk, til forbrugere. ",
+    "partner1": "Aarstiderne",
+    "partner1Description1": "",
+    "partner2": "The Organic Boho",
+    "partner1Description2": "Vegansk restaurantkæde i København",
+    "exampleTitle": "eksempel på vores arbejde",
+    "example": "wemuda udregner klimaaftryk og næringsværdier for retter og viser værdierne på et responsivt website, på vegne af The Organic boho når de står for catering til arrangementer såsom Copenhagen Ironman 2021."
+  },
+  "dietplan": {
+    "name": "Dietplan",
+    "intro": "Design, udvikling og vedligeholdelse af et system som gentænker hvordan diætister udarbjeder kostplaner.",
+    "aboutTitle": "om projektet",
+    "about1": "wemuda har gennem 2020 og 2021, sammen med ",
+    "about2": ", der er den største Diætist-virksomhed i Danmark, udviklet et system der har gentænkt hvordan diætister udarbejder kostplaner. ",
+    "ourWorkTitle": "vores arbejde",
+    "ourWork": "Systemet trækker på vores erfaring fra fødevare-domænet, simpelt og intuitivt design og vores omfattende, eksisterende fødevaredata-warehouse. Systemet bygger rundt om en interaktiv teksteditor som samtidig er en kostberegner og kan justere proportioner af ingredienser i håndgribelige mængder, når planen justeres, hvilket er en stor tids-sluger. Rundt om det system er der en suite af funktionaliteter som gør livet nemmere som diætist i form af skabeloner på ",
+    "partner": "Diætisthuset",
+    "partnerDescription": "Den største diætist-virksomhed i Danmark"
+  },
+  "nøglehulsmærket": {
+    "name": "Nøglehulsmærket",
+    "intro": "Design og udvikling af en udvidelse af en deklarationsberegner for DTU",
+    "aboutTitle": "om projektet",
+    "about": "I 2019 udviklede wemuda, efter forespørgsel fra fødevareministeriet, en udvidelse af Fødevareinstituttets deklarationsberegner så fødevareproducenter kan finde ud af om hvorvidt deres produkter lever op til kravene for deres kategori, for at kunne blive certificeret med nøglehulsmærket. Da producenterne allerede bruger DTUs system til at generere fødevaredeklarationer.",
+    "partner1": "DTU Fødevareinstituttet",
+    "partner1Description": "Danmarks fødevareinstitut"
+  },
+  "planA": {
+    "name": "Plan A Projects",
+    "intro": "Udvikling af en digital implementation af principperne fra Scaled Agile Frameworkss",
+    "aboutTitle": "om projektet",
+    "about1": "I 2018 hjalp wemuda",
+    "about2": "med at udvikle en digital implementation af principperne og mekanismerne fra den agile udviklings- og ledelsesmetode SAFe (scaled agile framework).",
+    "ourWorkTitle": "vores arbejde",
+    "ourWork": "Som coach i agilt lederskab, for teams i mange store virksomheder, havde Plan A Projects brug for en omfattende udvidelse af funktionaliteten i deres excel-baserede scrum-administrationssystem for at opnå mere effektivt og bedre brugervenlighed. wemuda blev valgt til at udvikle de mange funktionaliteter uden at kompromittere den gamle brugerflade.",
+    "partner": "Plan A Projects",
+    "partnerDescription": "Sælger kurser i agil projektledelse"
+  },
+  "wstp": {
+    "name": "Waste Streaming Trading Platform",
+    "intro": "Design og udvikling af en portal hvor udbud og efterspørgsel på fødevarerelaterede affaldssstrømme kan undersøges",
+    "aboutTitle": "om projektet",
+    "about": "WSTP er en prototype af en portal hvor udbud og efterspørgsel på fødevarerelaterede affaldsstrømme kan undersøges af virksomheder og organisationer, så potentielle ‘matches’ af affaldsressourcer bliver fundet og investeringsafkast lettere udregnes. Projektet blev udarbejdet for DTU Fødevareinstituttet, på baggrund af en succesfuld Climate-KIC ansøgning. UX/UI, datahåndtering og udvikling af website blev varetaget af wemuda.", 
+    "quote": "“wemuda succeeded in turning the project description into a prototype in a very independent fashion which made the project achieve an absolutely satisfactory result. They work independently, think outside of the box and deliver.”",
+    "qouteSrc": "- Henning Høgh Jensen // Head of department // DTU foods",
+    "partner": "DTU Fødevareinstituttet",
+    "partnerDescription": "Danmarks fødevareinstitut"
+  },
+  "infood": {
+    "name": "Infood",
+    "intro": "Projekt i samarbejde med DTU med formål for at undersøge hvordan en digital løsning kan effektivisere kostundersøgelser",
+    "aboutTitle": "om projektet",
+    "about": "Projektets formål er at undersøge hvordan en digital løsning kan styrke og effektivisere kostundersøgelser ved at øge datakvalitet og kvantitet, samt øge brugervenligheden i afrapporteringen for forsøgsdeltagere.",
+    "partner": "DTU Fødevareinstituttet",
+    "partnerDescription": "Danmarks fødevareinstitut"
+  }
+}

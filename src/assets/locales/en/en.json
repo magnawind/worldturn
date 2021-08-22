@@ -1,0 +1,108 @@
+{
+  "global": {
+    "wemuda": "worldturn",
+    "getInTouch": "Get in touch",
+    "backButton": "back to home",
+    "partners": "partners",
+    "aboutUs": "about us"
+  },
+  "getInTouch": {
+    "title": "Get in touch",
+    "sayHi": "say hi 👋",
+    "followUs": "follow us 📱"
+  },
+  "home": {
+    "hero": {
+      "title": "A brighter tomorrow",
+      "scroll": "scroll for more"
+    },
+    "whatWeDo": {
+      "topic:": "what we do",
+      "title": "we design and develop sustainable software products by having a modern and fun approach."
+    },
+    "cases": {
+      "topic": "cases",
+      "title": "our work"
+    },
+    "team": {
+      "topic": "the team",
+      "title": "we are a young and experienced cross functional team, capable of filling all the roles throughout a successful development process.",
+      "magnus": "Data Scientist & Business Developer",
+      "thomas": "UX & UI Designer",
+      "rumle": "Full-Stack Developer",
+      "alexander": "Full-Stack Developer"
+    }
+  },
+  "pth": {
+    "name": "Pay The Hippo",
+    "intro": "Redesign, rebranding and development of a fine box app for teams",
+    "d1": "In 2020 wemuda joined forces with the original creators of the popular mobile application ",
+    "d2": "to form a new company and direction for the brand.",
+    "aboutTitle": "about the project",
+    "about": "First launched 10 years ago, PayTheHippo has captured the need in sport clubs for an app to manage the culture of assigning fines to members for all sorts of reasons, used to fund celebration at the end of sport seasons, in manner of dinners, activities and of course parties. Having been early to the market, the app has caught on to be the popular choice throughout especially Scandinavia.",
+    "ourRoleTitle": "our role",
+    "ourRole": "We have initially conducted a complete redesign with a much more minimalist design that at the same time respects the original user experience as to not push away users accustomed to that. Additionally, we have been working on the business development side with an affiliate marketing strategy that we deem to actually be highly relevant to the users. An extension to this, will be an implementation of automatic payment options in accordance with PSD2 based on our fintech experience. The new app will be released September 2021."
+  },
+  "sustainableFoods": {
+    "name": "Sustainable foods",
+    "intro": "Carbon footprint calculation in retail and service industry",
+    "aboutTitle1": "our work - part 1",
+    "about1": "We have been working with data processing, data mapping and methods for evaluating and estimating carbon emission footprints with partners in the retail and service industries. While many providers in this field tend to aggregate data on categories of produce and products we have been collecting, comparing and assigning values to specific ingredients from a huge collection of published life cycle analysis reports.",
+    "aboutTitle2": "our work - part 2",
+    "about2": "In addition to being more relevant and precise on ingredient level, our method helps us better evaluate the footprint of products composed of several ingredients and processes. We maintain and expand our carbon emission data-warehouse and help our partners utilize the data to support their governance and communicate efforts on reducing carbon emissions footprints to consumers.",
+    "partner1": "Aarstiderne",
+    "partner1Description1": "",
+    "partner2": "The Organic Boho",
+    "partner1Description2": "Vegan restaurant chain based in copenhagen",
+    "exampleTitle": "example of our work",
+    "example": "wemuda calculates carbon footprint and nutrition values for dishes and display the values in a responsive website on behalf of The Organic Boho when they supply food to events like Copenhagen Ironman 2021."
+  },
+  "dietplan": {
+    "name": "Dietplan",
+    "intro": "Design and development of a system reinventing how dietitians create diet plans",
+    "aboutTitle": "about the project",
+    "about1": "In 2020 through 2021 wemuda has collaborated with ",
+    "about2": ", the largest dietitian company in Denmark, on developing a system that has reinvented how dietitians create diet plans.",
+    "ourWorkTitle": "our work",
+    "ourWork": "The system utilizes our experience in the food domain, our simple and intuitive design, and our extensive retail data-warehouse. The core of the system is an interactive text editor which simultaneously functions as a nutrition calculator that can adjust the proportion of ingredients in  tangible amounts when adjusting the plan, which consumes a lot of time. In addition is a suite of functionality easing the work of a dietitian in terms of templates at various levels and a solid CRM system. This results in word templates, external calculation systems and some administrative systems being redundant and the replacing components smarter. The system is now in use at Diætisthuset and is currently being modified to use by other companies and individual dietitians. ",
+    "partner": "Diætisthuset",
+    "partnerDescription": "The biggest dietitian company in Denmark"
+  },
+  "nøglehulsmærket": {
+    "name": "Nøglehulsmærket",
+    "intro": "Design and development of an extension for an evaluation system for DTU Foods",
+    "aboutTitle": "about the project",
+    "about": "In 2019 wemuda designed and developed an evaluation system for DTU foods (The National Food Institute), to be used by food manufactures to assert whether their products are qualified for the Nordic Keyhole certificate (nøglehulsmærket), based on data from the existing product label generator offered to manufactures by DTU foods. ",
+    "partner1": "DTU foods",
+    "partner1Description": "The danish institute for food"
+  },
+  "planA": {
+    "name": "Plan A Projects",
+    "intro": "Development of a digital implementation of the principles from Scaled Agile Framework",
+    "aboutTitle": "about the project",
+    "about1": "In 2018 wemuda helped",
+    "about2": "develop a digital implementation of the principles and mechanism from the agile development and leadership method SAFe (scaled agile framework). ",
+    "ourWorkTitle": "our work",
+    "ourWork": "Being an agile leadership coach for teams in many prominent companies, Plan A Project needed substantial extensions to the functionality of their excel based scrum management system, to improve efficiency and usability. wemuda was assigned to carry out development of the large collection of features while respecting the existing user experience.",
+    "partner": "Plan A Projects",
+    "partnerDescription": "Sells courses in agile project management"
+  },
+  "wstp": {
+    "name": "Waste Streaming Trading Platform",
+    "intro": "Design and development of a trading platform for facilitating the market of valuable waste from food manufacturing processes",
+    "aboutTitle": "about the project",
+    "about": "WSTP was a prototype of a trading platform meant for facilitating the market of valuable waste from food manufacturing processes. The project was funded by Climate-KIC and lead by Henning Høgh Jensen on behalf of DTU foods - Market research and development was conducted by wemuda.",
+    "quote": "“wemuda lykkedes med at komme fra projektbeskrivelse til prototype på en særdeles selvstændig måde som gjorde at projektet nåede et resultat der var meget tilfredsstillende.De arbejder selvstændigt, tænker ud af boksen og leverer.”",
+    "qouteSrc": "- Henning Høgh Jensen - Afdelingschef, DTU Fødevareinstituttet",
+    "partner": "DTU foods",
+    "partnerDescription": "The danish institute for food"
+  },
+  "infood": {
+    "name": "Infood",
+    "intro": "Project with DTU Foods to research how digital solutions can effectivize nutrition assesssments",
+    "aboutTitle": "about the project",
+    "about": "Infood is a project initiated by DTU foods and wemuda with the purpose of researching how a digital solution can improve and effectivize nutrition assessments by raising data quality and quantity in addition to rethinking the user experience of the participants.",
+    "partner": "DTU foods",
+    "partnerDescription": "The danish institute for food"
+  }
+}
