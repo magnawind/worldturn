@@ -2,14 +2,14 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./screens/Home";
 
-const PayTheHippo = React.lazy(() => import('./screens/PayTheHippo'))
+const PayTheHippo = React.lazy(() => import('./screens/NewTrends'))
 const Contact = React.lazy(() => import('./screens/Contact'))
-const SustainableFoods = React.lazy(() => import('./screens/SustainableFoods'))
-const Dietplan = React.lazy(() => import('./screens/Dietplan'))
-const Nøglehulsmærket = React.lazy(() => import('./screens/Nøglehulsmærket'))
-const PlanA = React.lazy(() => import('./screens/PlanA'))
-const WSTP = React.lazy(() => import('./screens/WSTP'))
-const Infood = React.lazy(() => import('./screens/Infood'))
+const SustainableFoods = React.lazy(() => import('./screens/MegaTrends'))
+const Dietplan = React.lazy(() => import('./screens/AccelerationAttention'))
+const Nøglehulsmærket = React.lazy(() => import('./screens/MachinesRise'))
+const PlanA = React.lazy(() => import('./screens/CriticalNature'))
+const WSTP = React.lazy(() => import('./screens/ConstantChange'))
+const Infood = React.lazy(() => import('./screens/FutureRevolution'))
 
 function Router() {
   return (

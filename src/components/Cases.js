@@ -2,13 +2,13 @@ import React from "react";
 import { VStack, Grid } from "@chakra-ui/react";
 import { Title, FadeScale, Fade } from "./index";
 import {
-  PayTheHippo,
-  SustainableFoods,
-  Dietplan,
-  Nøglehulsmærket,
-  PlanA,
-  WSTP,
-  Infood
+  NewTrends,
+  MegaTrends,
+  AccelerationAttention,
+  MachinesRise,
+  CriticalNature,
+  ConstantChange,
+  FutureRevolution
 } from "../cases/index";
 import { Trans } from "react-i18next";
 
@@ -35,25 +35,25 @@ export default function Cases() {
 
       >
         <FadeScale>
-          <SustainableFoods />
+          <MegaTrends />
         </FadeScale>
         <FadeScale delay={0.1}>
-          <PayTheHippo />
+          <NewTrends />
         </FadeScale>
         <FadeScale delay={0.15}>
-          <Dietplan />
+          <AccelerationAttention />
         </FadeScale>
         <FadeScale delay={0.20}>
-          <Nøglehulsmærket />
+          <MachinesRise />
         </FadeScale>
         <FadeScale delay={0.25}>
-          <Infood />
+          <FutureRevolution />
         </FadeScale>
         <FadeScale delay={0.30}>
-          <WSTP />
+          <ConstantChange />
         </FadeScale>
         <FadeScale delay={0.35}>
-          <PlanA />
+          <CriticalNature />
         </FadeScale>
         
         

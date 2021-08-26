@@ -12,7 +12,7 @@ import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
 import { diet } from "../assets/images/index";
 
-export default function Dietplan() {
+export default function AccelerationAttention() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,30 +22,30 @@ export default function Dietplan() {
     <Box height="100%" backgroundColor="#12141C">
       <NavigationBar back />
       <CaseHero
-        title={<Trans i18nKey="dietplan.name" />}
-        description={<Trans i18nKey="dietplan.intro" />}
+        title={<Trans i18nKey="accelerationAttention.name" />}
+        description={<Trans i18nKey="accelerationAttention.intro" />}
       />
 
       <Center h="100vh">
-        <Description topic={<Trans i18nKey="dietplan.aboutTitle" />}>
-          <Trans i18nKey="dietplan.about1" />
+        <Description topic={<Trans i18nKey="accelerationAttention.aboutTitle" />}>
+          <Trans i18nKey="accelerationAttention.about1" />
           <Highlight href="https://diaetisthuset.dk/">
-            <Trans i18nKey="dietplan.partner" />
+            <Trans i18nKey="accelerationAttention.partner" />
           </Highlight>
-          <Trans i18nKey="dietplan.about2" />
+          <Trans i18nKey="accelerationAttention.about2" />
         </Description>
       </Center>
 
       <VStack mb="20vh">
-        <Description topic={<Trans i18nKey="dietplan.ourWorkTitle" />} small>
-          <Trans i18nKey="dietplan.ourWork" />
+        <Description topic={<Trans i18nKey="accelerationAttention.ourWorkTitle" />} small>
+          <Trans i18nKey="accelerationAttention.ourWork" />
         </Description>
       </VStack>
       <Section title="partners">
         <Partner
           href="https://diaetisthuset.dk/"
-          name={<Trans i18nKey="dietplan.partner" />}
-          description={<Trans i18nKey="dietplan.partnerDescription" />}
+          name={<Trans i18nKey="accelerationAttention.partner" />}
+          description={<Trans i18nKey="accelerationAttention.partnerDescription" />}
           img={diet}
         />
       </Section>

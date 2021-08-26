@@ -4,15 +4,14 @@ import {
   NavigationBar,
   Description,
   Section,
-  Partner,
-  Quote,
+  Partner
 } from "../components/index";
 import { Box, VStack } from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
 import { dtu } from "../assets/images/index";
 
-export default function WSTP() {
+export default function FutureRevolution() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,23 +21,19 @@ export default function WSTP() {
     <Box height="100%" backgroundColor="#12141C">
       <NavigationBar back />
       <CaseHero
-        title={<Trans i18nKey="wstp.name" />}
-        description={<Trans i18nKey="wstp.intro" />}
+        title={<Trans i18nKey="futureRevolution.name" />}
+        description={<Trans i18nKey="futureRevolution.intro" />}
       />
-
       <VStack mt="20vh" mb="20vh">
-        <Description topic={<Trans i18nKey="wstp.aboutTitle" />} small>
-          <Trans i18nKey="wstp.about" />
+        <Description topic={<Trans i18nKey="futureRevolution.aboutTitle" />} small>
+          <Trans i18nKey="futureRevolution.about" />
         </Description>
-        <Quote source={<Trans i18nKey="wstp.qouteSrc" />} small>
-          <Trans i18nKey="wstp.quote" />
-        </Quote>
       </VStack>
       <Section title="partners">
         <Partner
           href="https://www.food.dtu.dk/"
-          name={<Trans i18nKey="wstp.partner" />}
-          description={<Trans i18nKey="wstp.partnerDescription" />}
+          name={<Trans i18nKey="futureRevolution.partner" />}
+          description={<Trans i18nKey="futureRevolution.partnerDescription" />}
           img={dtu}
         />
       </Section>
