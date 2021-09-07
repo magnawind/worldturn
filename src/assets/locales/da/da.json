@@ -1,6 +1,6 @@
 {
   "global": {
-    "wemuda": "wemuda",
+    "wemuda": "worldturn",
     "getInTouch": "Kontakt os",
     "backButton": "tilbage",
     "partners": "partnere",
@@ -13,16 +13,23 @@
   },
   "home": {
     "hero": {
-      "title": "produkt- og konsulenthus i københavn",
+      "title": "imagination is the highest form of research.",
       "scroll": "scroll for more"
     },
     "whatWeDo": {
       "topic:": "om os",
-      "title": "vi designer og udvikler bæredygtige softwareprodukter med en moderne og sjov approach."
+      "title": "World Turn.org er en non-profit organisation, der leverer en portal for dem, der er ikke blot vil være\npassive tilskuere. Det er en portal for dem, der vil tage aktion og være med til at bidrage til accelerationen af den grønne omstilling:"
     },
+    "motivation": {
+      "mot-1": "Verdenssamfundet har længe stået overfor store massive udfordringer på basale områder som klima, sundhed og miljø.",
+      "mot-2": "I 2015 skrev ikke mindre end 196 lande under på Paris-aftalen, der juridisk forpligter dem til at mindske klimabelastningen og holde dem globale temperaturstigning nede. Men den seneste klimarapport fra FN´s Klimapanel, afsendt 14.000 forskere i august 2021 kom med deprimerende konklusioner. Det ser værre ud end nogensinde, og der skal ske store ændringer i måden vi opretholder vores samfund på, hvis vi skal lykkedes med at leve op til Parisaftalen.",
+      "mot-3": "Men der sker for lidt. Det politiske lederskab sover i timen, og læner sig op at hvilken teknologi, der skal anvendes. Som ikke findes endnu.",
+      "mot-4": "Opgaven er nu overladt til samfundsaktørerne. Skal der ske en forandring, er det altså op til de private virksomheder, forskere og den unge generation at sikre den grønne omstilling, og World Turn er midlet til at nå målet."
+    },
+
     "cases": {
-      "topic": "cases",
-      "title": "vores arbejde"
+      "topic": "Hvis du kunne se 30 år ud I fremtiden, hvor ville du så lægge din indsats? Hvad ville du gøre for at gøre den bedre, så du kunne give et bedre liv til andre? Hvilken teknologi vil der være, hvordan kan den bruges bedst muligt, og hvad tor vi på mennesket vil?  Det eneste vi ved om fremtiden er et vi alle skal bo i den – og at vi vælger selv hvordan den skal se ud. Det er dine valg.",
+      "title": "Fremtidsscenarier"
     },
     "team": {
       "topic": "holdet",
@@ -34,75 +41,44 @@
     }
   },
   "newTrends": {
-    "name": "Nye trends kan forudsige vores fremtid\n",
+    "name": "Nye trends kan forudsige vores fremtid",
     "intro": "Jeffrey Scott Saunders - Forskningschef & fremtidsforsker",
-    "d1": "I 2020 slog wemuda sig sammen med det team der har skabt den populære app",
-    "d2": "for at skabe en virksomhed og ny retning for brandet.",
-    "aboutTitle": "om projektet",
-    "about": "Efter lanceringen for 10 år siden, har PayTheHippo fyldt behovet for en app til sportsklubber, der kan holde styr på kulturen med at uddele bøder til medlemmerne af alverdens årsager, som bliver brugt til at betale for fejringen i slutningen af hver sæson, i form af middage, aktiviteter og selvfølgelig fester. Da appen har været tidligt på markedet, er den blevet det populære valg hos klubber over hele Scandinavien.",
-    "ourRoleTitle": "vores rolle",
-    "ourRole": "Vi har indledningsvist udført et totalt redesign af applikationen med en meget mere minimalistisk tilgang, som samtidig ikke føles fremmed for brugere der har vendt sig til den originale brugeroplevelse. Derudover har vi arbejdet med forretningsudvikling, ud fra en affiliate-strategi, som vi mener vil blive meget relevant for sportsklubber. I forlængelse af forretningsudviklingen, vil vi på sigt implementere en betalingsløsning baseret på PSD2 og vores erfaring med fintech-løsniger."
+    "content": "Hvordan finder vi nye trends? Hvordan kan vi udnytte trends til vores fordel? Hør om hvordan nye trends bliver opdaget og hvordan de kan bruges til at forudse fremtiden."
   },
+
   "megaTrends": {
-    "name": "Megatrends har mega-impact på vores samfund\n",
+    "name": "Megatrends har mega-impact på vores samfund",
     "intro": "Claus Kjeldsen - CEO & fremtidsforsker",
-    "aboutTitle1": "vores arbejde - part 1",
-    "about1": "Vi har arbejdet med dataprocessering, dataopkobling og metoder til at evaluere CO2-udledningsaftryk med vores partnere i detail- og serviceindustrien. Mange udbyder af  beregninger arbejder med aggregerede tal på kategori-niveau, hvorimod vi har indsamlet, valideret og tildelt værdier på langt de fleste ingredienser fra en stor mængde offentliggjorte ‘life cycle analysis’ rapporter.",
-    "aboutTitle2": "vores arbejde - part 2",
-    "about2": "Udover at det giver os mere relevant og nøjagtig data på ingrediens-niveau, hjælper vores metode os med at estimere mere kvalificerede værdier for sammensatte produkter som består af flere ingredienser og processer. Vi vedligeholder og udbygger vores ‘data-warehouse’ og hjælper vores partnere med at anvende dataen til at underbygge governance og til at kommunikere deres indsats for at begrænse deres klimaaftryk, til forbrugere. ",
-    "partner1": "Aarstiderne",
-    "partner1Description1": "",
-    "partner2": "The Organic Boho",
-    "partner1Description2": "Vegansk restaurantkæde i København",
-    "exampleTitle": "eksempel på vores arbejde",
-    "example": "wemuda udregner klimaaftryk og næringsværdier for retter og viser værdierne på et responsivt website, på vegne af The Organic boho når de står for catering til arrangementer såsom Copenhagen Ironman 2021."
+    "content": "Her kan du høre om mega-trends, hvad de er og hvilken effekt de vil have på fremtiden.\nKjeldsen fortæller om, hvor vigtige mega-trends er for fremtidig succes, og hvordan man kan forudse fremtiden ved brug af mega-trends."
+
   },
   "accelerationAttention": {
-    "name": "Accelerationen kræver opmærksomhed\n",
+    "name": "Accelerationen kræver opmærksomhed",
     "intro": "Carsten Beck - Forskningschef & fremtidsforsker",
-    "aboutTitle": "om projektet",
-    "about1": "wemuda har gennem 2020 og 2021, sammen med ",
-    "about2": ", der er den største Diætist-virksomhed i Danmark, udviklet et system der har gentænkt hvordan diætister udarbejder kostplaner. ",
-    "ourWorkTitle": "vores arbejde",
-    "ourWork": "Systemet trækker på vores erfaring fra fødevare-domænet, simpelt og intuitivt design og vores omfattende, eksisterende fødevaredata-warehouse. Systemet bygger rundt om en interaktiv teksteditor som samtidig er en kostberegner og kan justere proportioner af ingredienser i håndgribelige mængder, når planen justeres, hvilket er en stor tids-sluger. Rundt om det system er der en suite af funktionaliteter som gør livet nemmere som diætist i form af skabeloner på ",
-    "partner": "Diætisthuset",
-    "partnerDescription": "Den største diætist-virksomhed i Danmark"
+    "content": "Vores verden ændrer sig hele tiden, og disse ændringer accelereres med tiden. Hør om, hvordan acceleration har effekt på samfundet, og hvordan man som person eller firma, kan komme accelerationen i møde."
+
   },
   "machinesrise": {
-    "name": "Maskinerne tager over\n",
+    "name": "Maskinerne tager over",
     "intro": "Klaus Æ. Mogensen - Senior fremtidsforsker",
-    "aboutTitle": "om projektet",
-    "about": "I 2019 udviklede wemuda, efter forespørgsel fra fødevareministeriet, en udvidelse af Fødevareinstituttets deklarationsberegner så fødevareproducenter kan finde ud af om hvorvidt deres produkter lever op til kravene for deres kategori, for at kunne blive certificeret med nøglehulsmærket. Da producenterne allerede bruger DTUs system til at generere fødevaredeklarationer.",
-    "partner1": "DTU Fødevareinstituttet",
-    "partner1Description": "Danmarks fødevareinstitut"
+    "content": "Hør om automatisering, og hvorfor det er vigtigt for fremtidig succes. Hør om hvordan vi kan effektivisere arbejdsmarkedet ved brug af teknologi og maskiner."
   },
+
   "criticalNature": {
-    "name": "Kritisk natur er indfødt hos nyere generationer\n",
+    "name": "Kritisk natur er indfødt hos nyere generationer",
     "intro": "Edmonia Baker - Fremtidsforsker & cand.merc associeret partner",
-    "aboutTitle": "om projektet",
-    "about1": "I 2018 hjalp wemuda",
-    "about2": "med at udvikle en digital implementation af principperne og mekanismerne fra den agile udviklings- og ledelsesmetode SAFe (scaled agile framework).",
-    "ourWorkTitle": "vores arbejde",
-    "ourWork": "Som coach i agilt lederskab, for teams i mange store virksomheder, havde Plan A Projects brug for en omfattende udvidelse af funktionaliteten i deres excel-baserede scrum-administrationssystem for at opnå mere effektivt og bedre brugervenlighed. wemuda blev valgt til at udvikle de mange funktionaliteter uden at kompromittere den gamle brugerflade.",
-    "partner": "Plan A Projects",
-    "partnerDescription": "Sælger kurser i agil projektledelse"
+    "content": "Hør om automatisering, og hvorfor det er vigtigt for fremtidig succes. Hør om hvordan vi kan effektivisere arbejdsmarkedet ved brug af teknologi og maskiner."
   },
+
   "constantChange": {
-    "name": "Verden er i konstant forandring\n",
+    "name": "Verden er i konstant forandring",
     "intro": "Tamira Snell - Fremtidsforsker & senior konsulent",
-    "aboutTitle": "om projektet",
-    "about": "WSTP er en prototype af en portal hvor udbud og efterspørgsel på fødevarerelaterede affaldsstrømme kan undersøges af virksomheder og organisationer, så potentielle ‘matches’ af affaldsressourcer bliver fundet og investeringsafkast lettere udregnes. Projektet blev udarbejdet for DTU Fødevareinstituttet, på baggrund af en succesfuld Climate-KIC ansøgning. UX/UI, datahåndtering og udvikling af website blev varetaget af wemuda.", 
-    "quote": "“wemuda succeeded in turning the project description into a prototype in a very independent fashion which made the project achieve an absolutely satisfactory result. They work independently, think outside of the box and deliver.”",
-    "qouteSrc": "- Henning Høgh Jensen // Head of department // DTU foods",
-    "partner": "DTU Fødevareinstituttet",
-    "partnerDescription": "Danmarks fødevareinstitut"
+    "content": "De største demografiske ændringer i vores samfund, og hvilke ændringer der efterfølger de fremtidige ændringer."
   },
+
   "futureRevolution": {
-    "name": "Fremtiden revolutioneres\n",
+    "name": "Fremtiden revolutioneres",
     "intro": "Anne Dencker Bædkel - Fremtidsforsker & sociolog",
-    "aboutTitle": "om projektet",
-    "about": "Projektets formål er at undersøge hvordan en digital løsning kan styrke og effektivisere kostundersøgelser ved at øge datakvalitet og kvantitet, samt øge brugervenligheden i afrapporteringen for forsøgsdeltagere.",
-    "partner": "DTU Fødevareinstituttet",
-    "partnerDescription": "Danmarks fødevareinstitut"
+    "content": "Her fortælles om den fjerde industrielle revolution, og hvordan vores verden bliver mere og mere automatiseret.\nDencker fortæller om, hvilke slags jobs der vil blive plads til i fremtiden, og hvilke slags jobs vil falde fra og blive overtaget af computere og robotter."
   }
 }

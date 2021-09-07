@@ -13,14 +13,25 @@ import { Trans } from "react-i18next";
 export default function Home() {
   return (
     <Box height="100%" backgroundColor="#12141C">
-      <NavigationBar />
-      <Hero />
-      <Center h="100vh">
-        <Description style={{ marginBottom: "40px" }} topic={<Trans i18nKey="global.aboutUs" />}  >
-        <Trans i18nKey="home.whatWeDo.title" />
-          {/*   <Highlight notExternal href="contact">{<Trans i18nKey="global.getInTouch" />}</Highlight> */}
-        </Description>
-      </Center>
+      <Box>
+        <NavigationBar />
+        <Hero />
+      </Box>
+        <Box mt="80px">
+            <Description>
+                <Trans i18nKey="home.motivation.mot-1" />
+            </Description>
+            <Description>
+                <Trans i18nKey="home.motivation.mot-2" />
+            </Description>
+            <Description>
+                <Trans i18nKey="home.motivation.mot-3" />
+            </Description>
+            <Description>
+                <Trans i18nKey="home.motivation.mot-4" />
+            </Description>
+        </Box>
+
       <Box mt="40px">
         <Cases />
       </Box>

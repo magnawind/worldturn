@@ -13,11 +13,12 @@ export default function Hero() {
     <div>
       <video className='videoTag' autoPlay loop muted
       style={{
+        opacity: "20%",
         position: "absolute",
         width: "100%",
         left: "50%",
         top: "5%",
-        height: "25%",
+        height: "20%",
         objectFit: "cover",
         transform: "translate(-50%, -50%)",
         zIndex: "0"

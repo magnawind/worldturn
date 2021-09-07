@@ -1,16 +1,11 @@
 import React, { useEffect } from "react";
 import {
-  CaseHero,
-  NavigationBar,
-  Description,
-  Section,
-  Partner,
-	Highlight
+    CaseHero,
+    NavigationBar, VimeoViewer
 } from "../components/index";
-import { Box, VStack, Center } from "@chakra-ui/react";
+import { Box} from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
-import { diet } from "../assets/images/index";
 
 export default function AccelerationAttention() {
   const location = useLocation();
@@ -24,31 +19,9 @@ export default function AccelerationAttention() {
       <CaseHero
         title={<Trans i18nKey="accelerationAttention.name" />}
         description={<Trans i18nKey="accelerationAttention.intro" />}
+        content={<Trans i18nKey="accelerationAttention.content" />}
       />
-
-      <Center h="100vh">
-        <Description topic={<Trans i18nKey="accelerationAttention.aboutTitle" />}>
-          <Trans i18nKey="accelerationAttention.about1" />
-          <Highlight href="https://diaetisthuset.dk/">
-            <Trans i18nKey="accelerationAttention.partner" />
-          </Highlight>
-          <Trans i18nKey="accelerationAttention.about2" />
-        </Description>
-      </Center>
-
-      <VStack mb="20vh">
-        <Description topic={<Trans i18nKey="accelerationAttention.ourWorkTitle" />} small>
-          <Trans i18nKey="accelerationAttention.ourWork" />
-        </Description>
-      </VStack>
-      <Section title="partners">
-        <Partner
-          href="https://diaetisthuset.dk/"
-          name={<Trans i18nKey="accelerationAttention.partner" />}
-          description={<Trans i18nKey="accelerationAttention.partnerDescription" />}
-          img={diet}
-        />
-      </Section>
+        <VimeoViewer src={'https://player.vimeo.com/video/244183146?h=3b64a138d1'}/>
     </Box>
   );
 }

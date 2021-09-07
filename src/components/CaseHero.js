@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 
 export const MotionBox = motion(chakra.div);
 
-export default function CaseHero({title, description}) {
+export default function CaseHero({title, description, content}) {
   return (
+
     <React.Fragment>
       <VStack
         alignItems="center"
         justifyContent="center"
-        height={{ base: "65vh", md: "80vh" }}
+        height={{ base: "30vh", md: "30vh" }}
       >
       <Fade>
       <Heading
@@ -26,12 +27,20 @@ export default function CaseHero({title, description}) {
           {title}
         </Heading>
       </Fade>
-        
-        <FadeScale delay={0.4}>
-          <Heading color="#4F5464" textAlign="center" alignSelf="center" w={{base: "280px", md: "400px", lg: "500px"}} fontSize="20px" >
-            {description}
-          </Heading>
-        </FadeScale>
+      </VStack>
+        <VStack  mb="10vh">
+          <FadeScale delay={0.4}>
+              <Heading color="#FFF" textAlign="center" alignSelf="center" w={{base: "280px", md: "400px", lg: "500px"}} fontSize="15px" >
+                  {content}
+              </Heading>
+          </FadeScale>
+        </VStack>
+        <VStack  mb="10vh">
+          <FadeScale delay={0.4}>
+              <Heading color="#4F5464" textAlign="center" alignSelf="center" w={{base: "280px", md: "400px", lg: "500px"}} fontSize="20px" >
+                  {description}
+              </Heading>
+          </FadeScale>
       </VStack>
       <VStack>
         <Fade delay={0.65}>

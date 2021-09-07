@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import {
-  CaseHero,
-  NavigationBar,
-  Description,
-  Highlight,
+    CaseHero,
+    NavigationBar, VimeoViewer,
 } from "../components/index";
-import { Box, Center, VStack } from "@chakra-ui/react";
+import { Box} from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
 
@@ -21,21 +19,9 @@ export default function CriticalNature() {
       <CaseHero
         title={<Trans i18nKey="criticalNature.name" />}
         description={<Trans i18nKey="criticalNature.intro" />}
+        content={<Trans i18nKey="criticalNature.content" />}
       />
-      <Center h="100vh">
-        <Description>
-          <Trans i18nKey="criticalNature.about1" />{" "}
-          <Highlight href="https://planaprojects.com/da/?gclid=Cj0KCQjw3f6HBhDHARIsAD_i3D8asJrggdOtkZoe-TtZP_RD7tInCjZhOa9xoA38K-C73YRXdB9rd5EaAsYxEALw_wcB">
-            <Trans i18nKey="criticalNature.partner" />
-          </Highlight>{" "}
-          <Trans i18nKey="criticalNature.about2" />
-        </Description>
-      </Center>
-      <VStack mb="40vh">
-        <Description topic={<Trans i18nKey="criticalNature.ourWorkTitle" />} small>
-          <Trans i18nKey="criticalNature.ourWork" />
-        </Description>
-      </VStack>
+      <VimeoViewer src={'https://player.vimeo.com/video/244183201?h=bf9102823c'}/>
     </Box>
   );
 }

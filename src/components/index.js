@@ -24,6 +24,7 @@ import Quote from "./Quote";
 import Footer from "./Footer";
 import Case from "./Case";
 import NewCases from "./NewCases"
+import VimeoViewer from "./VimeoViewer"
 
 export {
   NavigationBar,
@@ -51,5 +52,6 @@ export {
   Quote,
   Footer,
   Case,
-  NewCases
+  NewCases,
+  VimeoViewer
 };

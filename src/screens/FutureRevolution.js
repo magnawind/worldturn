@@ -1,15 +1,12 @@
 import React, { useEffect } from "react";
 import {
-  CaseHero,
-  NavigationBar,
-  Description,
-  Section,
-  Partner
+    CaseHero,
+    NavigationBar,
+    VimeoViewer
 } from "../components/index";
-import { Box, VStack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
-import { dtu } from "../assets/images/index";
 
 export default function FutureRevolution() {
   const location = useLocation();
@@ -23,20 +20,9 @@ export default function FutureRevolution() {
       <CaseHero
         title={<Trans i18nKey="futureRevolution.name" />}
         description={<Trans i18nKey="futureRevolution.intro" />}
+        content={<Trans i18nKey="futureRevolution.content" />}
       />
-      <VStack mt="20vh" mb="20vh">
-        <Description topic={<Trans i18nKey="futureRevolution.aboutTitle" />} small>
-          <Trans i18nKey="futureRevolution.about" />
-        </Description>
-      </VStack>
-      <Section title="partners">
-        <Partner
-          href="https://www.food.dtu.dk/"
-          name={<Trans i18nKey="futureRevolution.partner" />}
-          description={<Trans i18nKey="futureRevolution.partnerDescription" />}
-          img={dtu}
-        />
-      </Section>
+      <VimeoViewer src={'https://player.vimeo.com/video/244183090?h=289c2a7978'}/>
     </Box>
   );
 }

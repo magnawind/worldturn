@@ -1,16 +1,11 @@
 import React, { useEffect } from "react";
 import {
-  CaseHero,
-  NavigationBar,
-  Description,
-  Section,
-  Partner,
-  Quote,
+    CaseHero,
+    NavigationBar, VimeoViewer,
 } from "../components/index";
-import { Box, VStack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
-import { dtu } from "../assets/images/index";
 
 export default function ConstantChange() {
   const location = useLocation();
@@ -24,24 +19,9 @@ export default function ConstantChange() {
       <CaseHero
         title={<Trans i18nKey="constantChange.name" />}
         description={<Trans i18nKey="constantChange.intro" />}
+        content={<Trans i18nKey="constantChange.content" />}
       />
-
-      <VStack mt="20vh" mb="20vh">
-        <Description topic={<Trans i18nKey="constantChange.aboutTitle" />} small>
-          <Trans i18nKey="constantChange.about" />
-        </Description>
-        <Quote source={<Trans i18nKey="constantChange.qouteSrc" />} small>
-          <Trans i18nKey="constantChange.quote" />
-        </Quote>
-      </VStack>
-      <Section title="partners">
-        <Partner
-          href="https://www.food.dtu.dk/"
-          name={<Trans i18nKey="constantChange.partner" />}
-          description={<Trans i18nKey="constantChange.partnerDescription" />}
-          img={dtu}
-        />
-      </Section>
+        <VimeoViewer src={'https://player.vimeo.com/video/244183311?h=cfed5a53a4'}/>
     </Box>
   );
 }

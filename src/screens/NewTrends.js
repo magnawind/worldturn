@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import {
-  CaseHero,
-  NavigationBar,
-  Description,
-  Highlight,
+    CaseHero,
+    NavigationBar,
+    VimeoViewer,
 } from "../components/index";
-import { Box, Center, VStack, Image } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { useLocation } from "react-router";
 import { Trans } from "react-i18next";
-import { pthShowCase } from "../assets/images/index"
 
 export default function NewTrends() {
   const location = useLocation();
@@ -22,31 +20,11 @@ export default function NewTrends() {
       <CaseHero
         title={<Trans i18nKey="newTrends.name" />}
         description={<Trans i18nKey="newTrends.intro" />}
+        content={<Trans i18nKey="newTrends.content" />}
       />
-      <Center h="100vh">
-        <Description>
-          <Trans i18nKey="newTrends.d1" />{" "}
-          <Highlight href="https://paythehippo.com/index.aspx">
-            <Trans i18nKey="newTrends.name" />
-          </Highlight>{" "}
-          <Trans i18nKey="newTrends.d2" />
-        </Description>
-      </Center>
-      <VStack mb="10vh">
-        <Description topic={<Trans i18nKey="newTrends.aboutTitle" />} small>
-          <Trans i18nKey="newTrends.about" />
-        </Description>
-        <Description topic={<Trans i18nKey="newTrends.ourRoleTitle" />} small>
-          <Trans i18nKey="newTrends.ourRole" />
-        </Description>
-      </VStack>
-      <Center mb="20vh">
-        <Image
-          width={{ base: "92%", md: "600px", lg: "780px" }}
-          src={pthShowCase}
-          alt="app"
+        <VimeoViewer
+            src={'https://player.vimeo.com/video/244183172?h=b1ec078392'}
         />
-      </Center>
     </Box>
   );
 }
