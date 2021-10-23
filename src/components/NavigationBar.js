@@ -1,6 +1,6 @@
 import React from "react";
 import { HStack, Image, Link } from "@chakra-ui/react";
-import { Button, LanguagePicker } from "./index";
+import { Button } from "./index";
 import logo from "../assets/logo.png";
 import { Trans } from "react-i18next"
 
@@ -26,7 +26,6 @@ export default function NavigationBar({ back }) {
       </Link>
 
       <HStack>
-        <LanguagePicker />
         {back ? (
           <Button title={<Trans i18nKey="global.backButton" />} href="back" />
         ) : (
