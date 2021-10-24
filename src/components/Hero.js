@@ -14,14 +14,11 @@ export default function Hero() {
       <video className='videoTag' autoPlay loop muted
       style={{
         opacity: "20%",
-        position: "absolute",
-        width: "100%",
-        left: "50%",
-        top: "5%",
-        height: "20%",
         objectFit: "cover",
-        transform: "translate(-50%, -50%)",
-        zIndex: "0"
+        position: "absolute",
+        top: "0px",
+        minHeight: "100vh",
+        minWidth: "100%"
       }}>
         <source src={realshort} type='video/mp4' />
       </video>
@@ -49,7 +46,7 @@ export default function Hero() {
             marginTop="10px"
           >
             <Trans i18nKey="home.hero.title">
-              
+
             </Trans>
           </Heading>
         </Fade>

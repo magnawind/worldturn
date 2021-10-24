@@ -12,7 +12,7 @@ import { Trans } from "react-i18next";
 
 export default function Home() {
   return (
-    <Box height="100%" backgroundColor="#12141C">
+    <Box backgroundColor="#12141C">
       <Box>
         <NavigationBar />
         <Hero />
