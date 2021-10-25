@@ -12,7 +12,9 @@ import { Trans } from "react-i18next";
 
 export default function Home() {
   return (
-    <Box backgroundColor="#12141C">
+    <Box
+        background = "linear-gradient(10deg, rgba(74,155,208,1) 0%, rgba(232,142,67,0.5) 50%, rgba(18,20,28,1) 100%)"
+        /*backgroundColor="#12141C"*/>
       <Box>
         <NavigationBar />
         <Hero />

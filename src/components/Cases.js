@@ -1,5 +1,5 @@
 import React from "react";
-import { VStack, Grid } from "@chakra-ui/react";
+import {VStack, Grid, Heading} from "@chakra-ui/react";
 import { Title, FadeScale, Fade } from "./index";
 import {
   NewTrends,
@@ -16,10 +16,32 @@ export default function Cases() {
   return (
     <VStack mt="60px" h="fit-content" p="0px 10px 0px 10px">
       <Fade>
-        <Title
-          title={<Trans i18nKey="home.cases.title" />}
-          underTitle={<Trans i18nKey="home.cases.topic" />}
-        />
+          <VStack marginBottom="80px">
+
+              <Heading
+                  width={{ base: "290px", md: "350px", lg: "450px" }}
+                  fontSize={{ base: "30px", md: "36px", lg: "42px" }}
+                  textAlign="center"
+                  color="#FFF"
+                  fontWeight="extrabold"
+                  as="h2"
+              >
+                  {<Trans i18nKey="home.cases.title"/>}
+              </Heading>
+
+
+              {<Trans i18nKey="home.cases.intro"/> && (
+                  <Heading
+                      color="#4F5464"
+                      as="h2"
+                      fontWeight="extrabold"
+                      fontSize={{ base: "16px", md: "18px" }}
+                      mb="6px"
+                  >
+                      {<Trans i18nKey="home.cases.intro"/>}
+                  </Heading>
+              )}
+          </VStack>
       </Fade>
 
       <Grid

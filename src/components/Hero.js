@@ -23,11 +23,12 @@ export default function Hero() {
         <source src={realshort} type='video/mp4' />
       </video>
 
+
     <React.Fragment>
       <VStack
         alignItems="center"
         justifyContent="center"
-        height={{ base: "65vh", md: "80vh" }}
+        height={{ base: "75vh", md: "75vh" }}
       >
         <Fade>
           <Text color="#4F5464" fontSize="22px" fontWeight="bold">
@@ -55,7 +56,9 @@ export default function Hero() {
         <Button title="Get in touch" />
       </Fade> */}
       </VStack>
-      <VStack>
+      <VStack
+          height={{ base: "25vh", md: "25vh" }}
+        >
         <Fade delay={0.40}>
           <Arrow />
         </Fade>
