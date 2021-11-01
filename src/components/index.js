@@ -25,6 +25,7 @@ import Footer from "./Footer";
 import Case from "./Case";
 import NewCases from "./NewCases"
 import VimeoViewer from "./VimeoViewer"
+import KeyPoint from "./KeyPoint";
 
 export {
   NavigationBar,
@@ -53,5 +54,6 @@ export {
   Footer,
   Case,
   NewCases,
-  VimeoViewer
+  VimeoViewer,
+  KeyPoint
 };
