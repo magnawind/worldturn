@@ -26,6 +26,7 @@ import Case from "./Case";
 import NewCases from "./NewCases"
 import VimeoViewer from "./VimeoViewer"
 import KeyPoint from "./KeyPoint";
+import Iframe from "./Iframe";
 
 export {
   NavigationBar,
@@ -36,7 +37,7 @@ export {
   CaseBox,
   Icon,
   FadeScale,
-	Fade,
+  Fade,
   CaseHero,
   Description,
   Employee,
@@ -55,5 +56,6 @@ export {
   Case,
   NewCases,
   VimeoViewer,
-  KeyPoint
+  KeyPoint,
+  Iframe
 };

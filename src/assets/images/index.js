@@ -4,10 +4,8 @@ import sustain from "./sustainable-foods.png";
 import diet from "./diet.png";
 import dtu from "./dtu.jpeg";
 import planA from "./plan-a.png";
-import thomas from "./thomas.jpg";
+import jacob from "./jacob.jpeg";
 import magnus from "./magnus.jpeg";
-import rumle from "./rumle.jpeg";
-import alex from "./alex.jpeg";
 import pthShowCase from "./pth-showcase-3.png"
 import pth from "./pth.png"
 import apartment from "./apartment.png"
@@ -23,10 +21,8 @@ export {
   diet,
   dtu,
   planA,
-  thomas,
   magnus,
-  rumle,
-  alex,
+  jacob,
   pth,
   pthShowCase
 };

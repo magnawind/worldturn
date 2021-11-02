@@ -28,8 +28,8 @@
     },
 
     "cases": {
-      "title": "Fremtidsscenarier",
-      "intro": "Hvis du kunne se 30 år ud I fremtiden, hvor ville du så lægge din indsats? Hvad ville du gøre for at gøre den bedre, så du kunne give et bedre liv til andre? Hvilken teknologi vil der være, hvordan kan den bruges bedst muligt, og hvad tor vi på mennesket vil?  Det eneste vi ved om fremtiden er et vi alle skal bo i den – og at vi vælger selv hvordan den skal se ud. Det er dine valg."
+      "intro": "Fremtidsscenarier",
+      "content": "Hvis du kunne se 30 år ud I fremtiden, hvor ville du så lægge din indsats? Hvad ville du gøre for at gøre den bedre, så du kunne give et bedre liv til andre? Hvilken teknologi vil der være, hvordan kan den bruges bedst muligt, og hvad tor vi på mennesket vil?  Det eneste vi ved om fremtiden er et vi alle skal bo i den – og at vi vælger selv hvordan den skal se ud. Det er dine valg."
     },
     "team": {
       "topic": "holdet",
@@ -83,23 +83,23 @@
   },
 
   "businessModel": {
-    "intro": "hej",
-    "content": "det her bliver nødt tit ft jtjtj jtjt tj tjtjtjtjtjt tjtjt tjtjtjttj tj tjt jt jtj ttjtjtjt "
+    "intro": "Forretningsmodel baseret på nordisk dannelse",
+    "content": "Virksomheden baserer sig på helt centrale værdier fra den nordiske dannelse. Nøgleord som tillid, fællesskab og social ansvarlighed, udvikling og mulighedsskabelse for medarbejderne, er vigtige styringsmekanismer.  Selskabet skal selv foregå med bæredygtige løsninger i alle mulige sammenhænge, under hensyntagen til almindelige rationelle handlingsmuligheder. Selskabet skal allokere midler ud af overskuddet til eksperimentelle innovationer, ved frikøb af tid, eller tildeling af og stipendier til grupper og enkeltpersoner. Ud over bestyrelsen, vil selskabet have tilknyttet et advisorybord, bestående af kræfter inden for viden om etik, moral, filosofi og kommunikation. \n"
   },
 
   "competition": {
-    "intro": "hej",
-    "content": "hej"
+    "intro": "Konkurrenter",
+    "content": "Der eksisterer ikke egentlige konkurrenter til denne struktur.\nDer findes portaler, der connecter mennesker \nDer findes sites det har lukkede systemer der kan kopieres \nDer findes sites der har delelementer af udveksling imellem videnskab, innovation og forskning. \nSå web-maskinerne eksisterer og skal bare købes til. Der findes derimod ikke sites, som kombinerer de tre elementer – uddannelse, rekruttering, CSR og forstærket innovation til en selvstændig bæredygtig cirkulær mekanisme, der er selvfinansierende. Men tanken om at høste tidlige innovationer er ikke fremmed for de store selskaber. Deres egne innovationsafdelinger kan ikke følge med. De er nødt til at opkøbe ekspertise og støtte latente innovationer, inden de når markedet, og risikerer at tage deres forspring.\n"
   },
 
   "americanInvestors": {
-    "intro": "hej",
-    "content": "hej"
+    "intro": "Amerikanske investorer",
+    "content": "Der arbejdes med en fortsat investeringsstrategi, der rækker ud over DK, ved at præsentere produktet til en amerikansk investorkreds, - idet produktet er internationalt i sin digitale form,  let lader sig versionere, og tiden er den rigtigte til at gå i markedet med denne type innovation. \n"
   },
 
   "danishInvestors": {
-    "intro": "hej",
-    "content": "hej"
+    "intro": "Danske interesser NOVO, LEGO, Danfoss",
+    "content": "Såfremt der udvises interesse fra den jyske investorkreds, kan der udvikles en yderligere investeringsstrategi, over flere store danske selskaber og fonde, der hver især repræsenterer forskellige udviklingsområder, samt kendetegnes af stærke nordiske dannelsesværdier."
   },
 
   "advisors": {

@@ -5,9 +5,10 @@ import {
   Hero,
   Cases,
   Description,
+  Iframe,
   KeyPoint,
   Team,
-  Footer
+  Footer,
 } from "../components/index";
 import { Trans } from "react-i18next";
 
@@ -21,20 +22,35 @@ export default function Home() {
 
         <Box mt="80px">
 
-            <div align="center">
-                <iframe
-                    src="https://docs.google.com/presentation/d/e/2PACX-1vRrin_Ih9uZMudvzPTT8-XUyQHaDpb47liEb5p-hU9a8UW55EkEhl6e8jio8qcZow/embed?start=false&loop=false&delayms=3000"
-                    frameBorder="0" width="900px%" height="543px%" allowFullScreen="true" mozallowfullscreen="true"
-                    webkitallowfullscreen="true">
-                </iframe>
-            </div>
+            <Iframe
+            src={"https://docs.google.com/presentation/d/e/2PACX-1vRrin_Ih9uZMudvzPTT8-XUyQHaDpb47liEb5p-hU9a8UW55EkEhl6e8jio8qcZow/embed?start=false&loop=false&delayms=3000"}
+            >
+            </Iframe>
 
             <KeyPoint
                 intro={<Trans i18nKey="businessModel.intro" />}
                 content={<Trans i18nKey="businessModel.content" />}
-                side={"right"}
-            >
+                side={"right"}>
             </KeyPoint>
+
+            <KeyPoint
+                intro={<Trans i18nKey="competition.intro" />}
+                content={<Trans i18nKey="competition.content" />}
+                side={"right"}>
+            </KeyPoint>
+
+            <KeyPoint
+                intro={<Trans i18nKey="americanInvestors.intro" />}
+                content={<Trans i18nKey="americanInvestors.content" />}
+                side={"right"}>
+            </KeyPoint>
+
+            <KeyPoint
+                intro={<Trans i18nKey="danishInvestors.intro" />}
+                content={<Trans i18nKey="danishInvestors.content" />}
+                side={"right"}>
+            </KeyPoint>
+
 
             <Description>
                 <Trans i18nKey="home.motivation.mot-1" />

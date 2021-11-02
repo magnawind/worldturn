@@ -2,7 +2,7 @@ import React from "react";
 import { VStack, Grid, Box } from "@chakra-ui/react";
 import { Description, FadeScale, Employee } from "./index";
 import { Trans } from "react-i18next"
-import { thomas, magnus, rumle, alex } from "../assets/images/index"
+import { magnus, jacob } from "../assets/images/index"
 
 export default function Team() {
   return (
@@ -24,39 +24,20 @@ export default function Team() {
         }}
         gap="8"
       >
+      <FadeScale>
+          <Employee
+              name="Jacob Kjærsgaard Bendtzen"
+              role={<Trans i18nKey="home.team.jacob" />}
+              linkedin="https://www.linkedin.com/in/magnus-winding-509021a5/"
+              src={jacob}
+          />
+      </FadeScale>
         <FadeScale>
           <Employee
             name="Magnus Winding"
             role={<Trans i18nKey="home.team.magnus" />} 
             linkedin="https://www.linkedin.com/in/magnus-winding-509021a5/"
             src={magnus}
-          />
-        </FadeScale>
-        <FadeScale delay={0.2}>
-          <Employee
-            name="Thomas Holstein Qvortrup"
-            role={<Trans i18nKey="home.team.thomas" />}
-            linkedin="https://www.linkedin.com/in/qvortrup/"
-            //dribbble
-            //behance
-            src={thomas}
-          />
-        </FadeScale>
-        <FadeScale delay={0.4}>
-          <Employee
-            name="Rumle Flanding"
-            role={<Trans i18nKey="home.team.rumle" />}
-            src={rumle}
-            linkedin="https://www.linkedin.com/in/rumle-sakarias-flanding-3501bb172/"
-          />
-        </FadeScale>
-        <FadeScale delay={0.6}>
-          <Employee
-            name="Alexander Nielsen"
-            role={<Trans i18nKey="home.team.alexander" />}
-            linkedin="https://www.linkedin.com/in/algn/"
-            github="https://github.com/4lgn"
-            src={alex}
           />
         </FadeScale>
       </Grid>
