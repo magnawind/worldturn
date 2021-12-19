@@ -1,23 +1,12 @@
 import React from "react";
-import { VStack, Heading, Text, Box } from "@chakra-ui/react";
+import {VStack, Heading, Text, Box, HStack} from "@chakra-ui/react";
 import { Fade } from "./index";
 
 export default function Description({ intro, content, small, side }) {
     return (
-        <VStack mb="50px" mt="50px"
-                ml = {
-                    !small
-                        ? {ml: "40px"}
-                        : {ml: "100px"}
-                }
-                mr = {
-                    !small
-                        ? {mr: "40px"}
-                        : {mr: "100px"}
-                }
 
-                >
-            <Box width={{ base: "92%", md: "400px", lg: "500px" }} alignContent="left">
+        <VStack mb="50px" mt="50px">
+            <Box width={{ base: "92%", md: "400px", lg: "500px" }} display="grid" >
                 <Heading
                     color="rgba(255,255,255,1)"
                     marginBottom="30px"

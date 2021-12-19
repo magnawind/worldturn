@@ -27,6 +27,10 @@ import NewCases from "./NewCases"
 import VimeoViewer from "./VimeoViewer"
 import KeyPoint from "./KeyPoint";
 import Iframe from "./Iframe";
+import TheProblem from "./TheProblem";
+import ProblemVideos from "./ProblemVideos";
+import TheSolution from "./TheSolution";
+import SolutionVideos from "./SolutionVideos"
 
 export {
   NavigationBar,
@@ -57,5 +61,9 @@ export {
   NewCases,
   VimeoViewer,
   KeyPoint,
-  Iframe
+  Iframe,
+  TheProblem,
+  ProblemVideos,
+  TheSolution,
+  SolutionVideos
 };

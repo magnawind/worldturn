@@ -3,28 +3,14 @@ import {chakra, VStack, Heading, Text} from "@chakra-ui/react";
 import { Fade, Arrow } from "./index";
 import { motion } from "framer-motion";
 import { Trans } from "react-i18next";
-import { realshort } from "../assets/images/index";
 
 export const MotionBox = motion(chakra.div);
 
 export default function Hero() {
   return (
 
-    <div>
-      <video className='videoTag' autoPlay loop muted
-      style={{
-        opacity: "20%",
-        objectFit: "cover",
-        position: "absolute",
-        top: "0px",
-        minHeight: "100vh",
-        minWidth: "100%"
-      }}>
-        <source src={realshort} type='video/mp4' />
-      </video>
-
-
     <React.Fragment>
+
       <VStack
         alignItems="center"
         justifyContent="center"
@@ -64,6 +50,5 @@ export default function Hero() {
         </Fade>
       </VStack>
     </React.Fragment>
-    </div>
   );
 }
