@@ -16,11 +16,11 @@ import {realshort, storefront} from "../assets/images/index";
 export default function Home() {
   return (
     <Box>
-        <Box>
+        <Box background="rgba(0,0,0,1)">
             <NavigationBar/>
             <img src={storefront}></img>
         </Box>
-        <Box>
+        <Box background="rgba(0,0,0,0.5)">
             <video className='videoTag' autoPlay loop muted
                    style={{
                        opacity: "20%",
