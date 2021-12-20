@@ -19,21 +19,6 @@ export default function Hero() {
         justifyContent="center"
         height={{ base: "75vh", md: "75vh" }}
       >
-            <Fade style={{ marginBottom: "50px" }} delay={0.20} duration={1}>
-              <Heading
-                width={{ base: "370px", md: "500px", lg: "750px" }}
-                fontSize={{ base: "38px", md: "44px", lg: "50px" }}
-                textAlign="center"
-                color="#FFF"
-                fontWeight="extrabold"
-                as="h1"
-                marginBottom="30px"
-                marginTop="10px"
-              >
-                <Trans i18nKey="home.hero.title">
-                </Trans>
-              </Heading>
-            </Fade>
           <Fade style={{ marginBottom: "50px" }} delay={0.20} duration={1}>
               <Heading
                   width={{ base: "370px", md: "500px", lg: "750px" }}
@@ -43,11 +28,25 @@ export default function Hero() {
                   fontWeight="extrabold"
                   as="h1"
                   marginBottom="30px"
-                  marginTop="10px"
+                  marginTop="100px"
               >
-                  <Trans i18nKey="home.theProblem.title">
+                  <Trans i18nKey="home.theProblem.problem.title">
                   </Trans>
               </Heading>
+              <Heading
+                  width={{ base: "370px", md: "500px", lg: "750px" }}
+                  fontSize={{ base: "19px", md: "22px", lg: "25px" }}
+                  textAlign="center"
+                  color="#FFF"
+                  fontWeight="bold"
+                  as="h1"
+                  marginBottom="30px"
+                  marginTop="10px"
+              >
+                  <Trans i18nKey="home.theProblem.problem.content">
+                  </Trans>
+              </Heading>
+
           </Fade>
           <Fade style={{ marginBottom: "50px" }} delay={0.20} duration={1}>
               <Heading
@@ -60,7 +59,20 @@ export default function Hero() {
                   marginBottom="30px"
                   marginTop="10px"
               >
-                  <Trans i18nKey="home.hero.title">
+                  <Trans i18nKey="home.theProblem.business.title">
+                  </Trans>
+              </Heading>
+              <Heading
+                  width={{ base: "370px", md: "500px", lg: "750px" }}
+                  fontSize={{ base: "19px", md: "22px", lg: "25px" }}
+                  textAlign="center"
+                  color="#FFF"
+                  fontWeight="bold"
+                  as="h1"
+                  marginBottom="30px"
+                  marginTop="10px"
+              >
+                  <Trans i18nKey="home.theProblem.business.content">
                   </Trans>
               </Heading>
           </Fade>

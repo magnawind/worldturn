@@ -30,9 +30,23 @@ export default function Hero() {
                 marginBottom="30px"
                 marginTop="10px"
               >
-                <Trans i18nKey="home.hero.title">
+                <Trans i18nKey="home.theSolution.education.title">
                 </Trans>
               </Heading>
+                <Heading
+                    width={{ base: "370px", md: "500px", lg: "750px" }}
+                    fontSize={{ base: "19px", md: "22px", lg: "25px" }}
+                    textAlign="center"
+                    color="#FFF"
+                    fontWeight="bold"
+                    as="h1"
+                    marginBottom="30px"
+                    marginTop="10px"
+                >
+                    <Trans i18nKey="home.theSolution.education.proposal">
+                    </Trans>
+                </Heading>
+
             </Fade>
           <Fade style={{ marginBottom: "50px" }} delay={0.20} duration={1}>
               <Heading
@@ -45,7 +59,20 @@ export default function Hero() {
                   marginBottom="30px"
                   marginTop="10px"
               >
-                  <Trans i18nKey="home.hero.title">
+                  <Trans i18nKey="home.theSolution.business.title">
+                  </Trans>
+              </Heading>
+              <Heading
+                  width={{ base: "370px", md: "500px", lg: "750px" }}
+                  fontSize={{ base: "19px", md: "22px", lg: "25px" }}
+                  textAlign="center"
+                  color="#FFF"
+                  fontWeight="bold"
+                  as="h1"
+                  marginBottom="30px"
+                  marginTop="10px"
+              >
+                  <Trans i18nKey="home.theSolution.business.proposal">
                   </Trans>
               </Heading>
           </Fade>
@@ -60,7 +87,20 @@ export default function Hero() {
                   marginBottom="30px"
                   marginTop="10px"
               >
-                  <Trans i18nKey="home.hero.title">
+                  <Trans i18nKey="home.theSolution.talents.title">
+                  </Trans>
+              </Heading>
+              <Heading
+                  width={{ base: "370px", md: "500px", lg: "750px" }}
+                  fontSize={{ base: "19px", md: "22px", lg: "25px" }}
+                  textAlign="center"
+                  color="#FFF"
+                  fontWeight="bold"
+                  as="h1"
+                  marginBottom="30px"
+                  marginTop="10px"
+              >
+                  <Trans i18nKey="home.theSolution.talents.proposal">
                   </Trans>
               </Heading>
           </Fade>

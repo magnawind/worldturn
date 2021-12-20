@@ -13,14 +13,33 @@
   },
   "home": {
     "hero": {
-      "title": "imagination is the highest form of research.",
+      "title": "imagination is the highest form of research!",
       "scroll": "scroll for more"
     },
     "theProblem": {
-      "title": "Verdenssamfundet står overfor massive udfordringer på basale områder som klima, sundhed og miljø."
+      "problem": {
+        "title": "Der sker for lidt.",
+        "content": "Verdenssamfundet står overfor massive udfordringer på basale områder som klima, sundhed og miljø."
+      },
+      "business": {
+        "title": "Opgaven er nu overladt til samfundsaktørerne.",
+        "content" : "Skal der ske en forandring, er det altså op til de private virksomheder, forskere og den unge generation at sikre den grønne omstilling. World Turn er midlet til at nå målet."
+      }
     },
     "theSolution": {
-      "title": ""
+      "education": {
+        "title": "Education",
+        "subTitle": "Knyt relationer til fremtidens talenter, ved at støtte deres innovationsudvikling, før de er på arbejdsmarkdet.",
+        "proposal": "Gratis undervisningsmateriale, baseret på forskning og udvikling, behov og perspektiver"
+      },
+      "business": {
+        "title": "Business",
+        "proposal": "Indblik i fremtiden, som pejler mod uundgåelig omstilling, samtidig med forankret CSR og brand"
+      },
+      "talents":{
+        "title": "Talents",
+        "proposal": "Udvekslingsportal, der forbinder unge med virksomheder, investorer, forskere og andre innovatorer"
+      }
     },
     "whatWeDo": {
       "topic:": "om os",
